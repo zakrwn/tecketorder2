@@ -64,9 +64,6 @@ client.on("message", (message) => {
 
 
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
 const devs = ["529286765064880148"]; //الايدي حقك
 const adminprefix = ["!"]; // البرفكس
 client.on('message', message => {
